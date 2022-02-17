@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Library</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.bg {
+		background-image: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+		width: 2000px;
+		height: 1500px;
+		background-size: cover;
+		position: fixed;
+		z-index: -1;
+		filter: blur(10px) brightness(0.7);
+	}
+
+/*container*/
+	.container {
+		width: 80%;
+		/*height: 100px;*/
+		padding: 10px;
+		background-color: rgba(256, 256, 256, 0.6);
+		margin: auto;
+		transform: translateY(50px);
+
+	}
+
+/*text*/
+
+	h1 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.ptombol {
+		font-size: 20px;
+	}
+
+/*button*/
+	button {
+		display: block;
+		margin: auto;
+		text-align: center;
+		padding: 6px;
+		border-radius: 10%;
+	}
+
+	button:hover{
+		cursor: pointer;
+	}
+
+	
+
+</style>
+
+</head>
+
+<body>
+
+	<div class="bg"></div>
+
+	<div class="container">
+		
+		<h1>Ferry's Library</h1>
+		<br>
+
+		<p>Ini adalah website yang berisi kumpulan ringkasan isi dari buku yang pernah dibaca oleh Ferry</p>
+		<br>
+
+		<a href="isi.html"><button><p class="ptombol">Masuk</p></button></a>
+
+	</div>
+	
+</body>
+</html>

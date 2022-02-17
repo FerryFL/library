@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Library</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.bg {
+		background-image: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+		width: 2000px;
+		height: 1500px;
+		background-size: cover;
+		position: fixed;
+		z-index: -1;
+		filter: blur(10px) brightness(0.7);
+	}
+
+/*container*/
+	.container {
+		width: 80%;
+		/*height: 100px;*/
+		padding: 10px;
+		background-color: rgba(256, 256, 256, 0.6);
+		margin: auto;
+		transform: translateY(50px);
+
+	}
+
+	.container1 {
+		width: 50%;
+		/*background-color: white;*/
+		margin: auto;
+		padding: 10px;
+		border: 5px black;
+	}
+
+/*text*/
+
+	h1 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	.ptombol {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 25px;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+
+/*button*/
+	button {
+		display: block;
+		margin: auto;
+		text-align: center;
+		padding: 6px;
+		border-radius: 10%;
+	}
+
+	button:hover{
+		cursor: pointer;
+	}
+
+/*img*/
+	img {
+		width: 20%;
+		display: block;
+		margin: auto;
+	}
+
+/*media*/
+
+	@media(max-width:1000px ){
+		.container1 {
+			width: 100%;
+		}
+	}
+
+</style>
+
+</head>
+
+<body>
+
+	<div class="bg"></div>
+
+	<div class="container">
+		
+		<h1>Ferry's Library</h1>
+		<br>
+
+		<div class="container1">		
+		<h2>Buku #1</h2>
+		<br>
+		<h2>How To Win Friends & Influence People</h2>
+		<h3 >By : Dale Carnegie</h3>
+		<br>
+
+		<img src="winfriends.jpeg">
+		<br>
+
+		<p>Kemungkinan besar, masalah terbesar yang anda hadapi adalah berurusan dengan orang lain. Pernyataan inilah yang menjadi fondasi dari buku <i>How To Win Friends and Influence People.</i></p>
+		<br>
+		<p>Seni komunikasi adalah seni kepemimpinan. Dengan buku ini, anda bisa meningkatkan kemampuan dalam memengaruhi orang lain, mempererat hubungan, serta menguntungkan dalam percakapan, kolaborasi, hingga perusahaan.</p>
+		<br>
+
+		<h3>Bagian 1</h3>
+		<h3>Yang Perlu Dilakukan dalam Keterlibatan</h3>
+		<br>
+
+		<h3>Bagian 2</h3>
+		<h3>Enam Cara untuk Memberikan Kesan yang Bertahan Lama</h3>
+		<br>
+
+		<h3>Bagian 3</h3>
+		<h3>Cara Mendapatkan dan Menjaga Kepercayaan Orang Lain</h3>
+		<br>
+
+		<h3>Bagian 4</h3>
+		<h3>Cara Menuntun Perubahan Tanpa Penolakan atau Kebencian</h3>
+
+		</div>
+
+		<br>
+
+		<a href="library.html"><button><p class="ptombol">Kembali</p></button></a>
+
+	</div>
+	
+</body>
+</html>
