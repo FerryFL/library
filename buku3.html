@@ -7,130 +7,7 @@
 
 <title>Library</title>
 
-<style>
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		font-family: 'Roboto', sans-serif;
-	}
-
-	body {
-		background-color: black
-	}
-
-	.bg {
-		background-image: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-		width: 2500px;
-		height: 2000px;
-		background-size: cover;
-		position: fixed;
-		z-index: -1;
-		filter: blur(10px) brightness(0.7);
-		overflow-y: hidden;
-	}
-
-/*container*/
-	.container {
-		width: 90%;
-		/*height: 100px;*/
-		padding: 20px;
-		background-color: rgba(256, 256, 256, 0.6);
-		margin: auto;
-		transform: translateY(50px);
-
-	}
-
-	.container1 {
-		width: 50%;
-		/*background-color: white;*/
-		margin: auto;
-		padding: 10px;
-		border: 5px black;
-	}
-
-/*text*/
-
-	h1 {
-		font-size: 40px;
-		text-align: center;
-	}
-
-	a {
-		font-size: 20px;
-		text-decoration: none;
-	}
-
-	p {
-		font-size: 18px;
-		text-align: justify;
-	}
-
-	h2 {
-		font-size: 30px;
-		font-weight: 700;
-		text-align: center;
-	}
-
-	h3 {
-		font-size: 24px;
-		font-weight: 600;
-	}
-
-	h4 {
-		font-size: 20px;
-		font-weight: 600;
-	}
-
-
-	.ptombol {
-		font-size: 30px;
-	}
-
-	.mid {
-		text-align: center;
-	}
-
-
-/*button*/
-	button {
-		display: block;
-		margin: auto;
-		text-align: center;
-		padding: 6px;
-		border-radius: 10%;
-	}
-
-	button:hover{
-		cursor: pointer;
-	}
-
-/*img*/
-	img {
-		width: 25%;
-		display: block;
-		margin: auto;
-	}
-
-	.gambar {
-		width: 55%;
-		display: block;
-		margin: auto;
-	}
-
-/*media*/
-
-	@media(max-width:1000px ){
-		.container1 {
-			width: 100%;
-		}
-	}
-
-</style>
+<link rel="stylesheet" type="text/css" href="css.css">
 
 </head>
 
@@ -187,7 +64,7 @@
 
 		<p>Sasaran itu penting untuk menetapkan arah, namun sistemlah yang terbaik untuk mendapatkan kemajuan. Fokus pada sistem dan proses, maka hasil akan datang dengan sendirinya.</p><br><br>
 
-		<h4>* Contoh</h4><br>
+		<h4 class="contoh">* Contoh</h4>
 		<p>- Sasaran anda memenangkan pertandingan sepak bola. Fokuslah pada cara anda bermain.<br>
 		- Sasaran anda membaca 5 buku dalam sebulan. Fokuslah pada proses membaca buku.
 		</p><br>
@@ -197,7 +74,7 @@
 		<br>
 		<p>Terkadang bagi sebagian besar orang sulit untuk mengubah kebiasaan buruk. Hal ini dapat terjadi mungkin dikarenakan salah sasaran. Sasaran dalam perubahan kebiasaan bukanlah hasil, melainkan identitas.</p><br>
 
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>
 		- Sasaran anda bukan membaca sebuah buku, sasaran anda menjadi pembaca buku<br>
 		- Sasaran anda bukan berlari maraton, sasaran anda menjadi seorang pelari<br>
@@ -213,7 +90,7 @@
 		<br>
 
 		
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>
 		- Petunjuk : Saya melihat orang banyak membaca buku<br>
 		- Gairah : Saya menjadi tertarik<br>
@@ -226,7 +103,7 @@
 
 		<p>Kita dapat membentuk atau mengubah kebiasaan menjadi kebiasaan yang baru dengan memanfaatkan keempat hukum dan kaidah pembentuk kebiasaan. <br><br></p>
 
-		<h4>Membentuk Kebiasaan Baik :</h4><br>
+		<h4 class="poin">Membentuk Kebiasaan Baik :</h4><br>
 		<p>
 		- Petunjuk (<i>Cue</i>) = Menjadikannya Jelas<br>
 		- Gairah (<i>Craving</i>) = Menjadikannya Menarik<br>
@@ -234,7 +111,7 @@
 		- Imbalan (<i>Reward</i>) = Menjadikannya Memuaskan<br><br>
 		</p>
 
-		<h4>Menghilangkan Kebiasaan Buruk :</h4><br>
+		<h4 class="poin">Menghilangkan Kebiasaan Buruk :</h4><br>
 		<p>
 		- Petunjuk (<i>Cue</i>) = Menjadikannya Tidak Jelas<br>
 		- Gairah (<i>Craving</i>) = Menjadikannya Tidak Menarik<br>
@@ -246,26 +123,26 @@
 
 		<p>Setiap kebiasaan diawali dengan petunjuk. Berikan ruang untuk otak kita menyadari sepenuhnya mengenai petunjuk yang ada. Jadikanlah petunjuk jelas dan terlihat, dan berikut adalah cara-cara nya<br>
 		</p><br>
-		<h4>1. Mengisi Kartu Nilai (<i>Habit Scorecard</i>)</h4><br>
+		<h4 class="poin">1. Mengisi Kartu Nilai (<i>Habit Scorecard</i>)</h4><br>
 		<p>Kartu nilai atau <i>Habit Scorecard</i> adalah metode agar kita dapat lebih sadar akan kebiasaan dan perilaku kita. Kita dapat melakukannya dengan cara membuat daftar kebiasaan yang akan kita lakukan. </p><br>
 
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>- Membaca buku<br>
 		- Belajar bahasa asing<br>
 		- Berlatih alat musik</p><br>
 
-		<h4>2. Implementasi Niat (<i>Implementation Intention</i>)</h4><br>
+		<h4 class="poin">2. Implementasi Niat (<i>Implementation Intention</i>)</h4><br>
 		<p>Jadikan petunjuk jelas dengan merencanakan Waktu dan Tempat pelaksanaan </p><br>
 
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>- Saya ingin membaca buku pada jam 12 Siang di Taman<br>
 		- Saya ingin belajar bahasa asing jam 1 Siang di Kamar<br>
 		- Saya ingin berlatih alat musik jam 2 Siang di Ruang Musik</p><br>
 
-		<h4>3. Merancang Lingkungan Yang Efektif</h4><br>
+		<h4 class="poin">3. Merancang Lingkungan Yang Efektif</h4><br>
 		<p>Lingkungan merupakan salah satu aspek penting dalam membangun sebuah kebiasaan. Rancang lingkungan sedemikian rupa agar petunjuk yang ada dapat dilihat dengan jelas. </p><br>
 
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>- Jika ingin berlatih gitar lebih sering, taruhlah gitar di tengah ruang santai<br>
 		- Jika ingin membaca buku lebih sering, taruhlah buku di tempat yang mudah dijangkau<br>
 		- Jika ingin minum air lebih sering, taruhlah botol air minum di tempat anda bekerja
@@ -275,44 +152,44 @@
 		<h2>2. Menjadikannya Menarik</h2><br>
 		<p>Setelah petunjuk berhasil untuk dilewati dengan menjadikannya jelas, tahap selanjutnya adalah gairah. Dalam membuat kebiasaan menjadi bergairah, kita dapat menjadikannya menarik dengan cara berikut ini. <br><br>
 
-		<h4>1. Menggunakan Paket Godaan (<i>Temptation Bundling</i>)</h4><br>
+		<h4 class="poin">1. Menggunakan Paket Godaan (<i>Temptation Bundling</i>)</h4><br>
 		<p>Paket godaan (<i>Temptation Bundling</i>) merupakan strategi memadukan antara kebiasaan yang kita inginkan dengan kebiasaan yang kita perlukan.</p><br>
 
-		<h4>* Contoh</h4>
+		<h4 class="contoh">* Contoh</h4>
 		<p>- Saya akan menonton film ( Keinginan ) setelah menyelesaikan pekerjaan rumah ( Keperluan ) <br>
 		- Saya akan memakan junk food ( Keinginan ) setelah membaca 1 buku ( Keperluan )
 		</p><br>
 
-		<h4>2. Penyesuaian Kebiasaan Dengan Lingkungan</h4><br>
+		<h4 class="poin">2. Penyesuaian Kebiasaan Dengan Lingkungan</h4><br>
 		<p>Dalam lingkungan sosial, kita dapat mengikuti kebiasaan dan perilaku yang dianggap normal di lingkungan kita. Persamaan perilaku dan kebiasaan ini terkadang membuat kita merasa diterima oleh lingkungan kita, dan karena penerimaan secara eksternal itulah yang membuat kita merasa bahwa perilaku atau kebiasaan tersebut menarik.</p><br>
 
-		<h4>3. Mengubah Sudut Pandang</h4><br>
+		<h4 class="poin">3. Mengubah Sudut Pandang</h4><br>
 		<p>Terkadang kita sering kali melihat kebiasaan yang baik dan buruk dengan sudut pandang yang salah. Kita melihat kebiasaan baik dari sudut pandang negatif, dan kebiasaan buruk dari sudut pandang positif. Ubahlah sudut pandang anda, buat kebiasaan baik menjadi lebih menarik, dan kebiasaan buruk menjadi tidak menarik.</p><br>
 
-		<h4>*Contoh</h4>
+		<h4 class="contoh">*Contoh</h4>
 		<p><b>"Olahraga adalah aktivitas yang melelahkan"</b> menjadi --> <b>"Olahraga adalah aktivitas yang menyehatkan"</b><br>
 		<b>"Dengan menjadi malas, kita menghemat banyak energi"</b> menjadi --> <b>"Dengan menjadi malas, kita membuang banyak waktu berharga"</b>
 		</p><br>
 
 		<h2>3. Menjadikannya Mudah </h2><br>
 
-		<h4>1. Fokus Pada <i>Action</i>, Bukan Pada <i>In Motion</i></h4><br>
+		<h4 class="poin">1. Fokus Pada <i>Action</i>, Bukan Pada <i>In Motion</i></h4><br>
 		<p><i>Action</i> merupakan aksi yang dilakukan. Sedangkan, <i>In Motion</i> merupakan upaya untuk merancang dan merencanakan aksi yang akan kita lakukan. Terkadang, kita hanya memikirkan rencana yang terbaik, bukannya menjalankan aksinya. Kunci dalam menjalankan kebiasaan adalah memulai aksi dan melakukan pengulangan.</p><br>
 
-		<h4>2. Terapkan Hukum Upaya Sekecil-kecilnya</h4><br>
+		<h4 class="poin">2. Terapkan Hukum Upaya Sekecil-kecilnya</h4><br>
 		<p>Buat lingkungan yang efektif sehingga aktivitas yang akan kita lakukan menjadi mudah dan tidak memerlukan banyak energi dan usaha.
 		</p><br>
 
-		<h4>*Contoh</h4>
+		<h4 class="contoh">*Contoh</h4>
 		<p>- Letakkan buku di tempat yang mudah dijangkau<br>
 		- Letakan alat olahraga di tempat yang mudah dijangkau
 		</p><br>
 
 
-		<h4>3. Mulai Dengan Aturan Dua Menit</h4><br>
+		<h4 class="poin">3. Mulai Dengan Aturan Dua Menit</h4><br>
 		<p>Sering kali kita sulit dalam memulai kebiasaan. Untuk mengatasinya, anda dapat mulai dengan Aturan Dua Menit. Yang anda perlukan adalah melakukan aktivitas yang pelaksanaannya kurang dari dua menit dan tergolong sangat mudah. </p><br>
 
-		<h4>*Contoh</h4>
+		<h4 class="contoh">*Contoh</h4>
 		<p>- Push up 1 kali<br>
 		- Meditasi 1 menit<br>
 		- Baca buku 1 halaman<br><br>
@@ -321,10 +198,10 @@
 		</p><br>
 
 
-		<h4>4. Terapkan Alat Penjaga Komitmen</h4>
+		<h4 class="poin">4. Terapkan Alat Penjaga Komitmen</h4>
 		<p>Alat penjaga komitmen merupakan sebuah upaya untuk mengendalikan aksi aksi anda di masa mendatang. Ini merupakan cara agar kita anda hanya dapat menjalankan kebiasaan baik, dan membatasi diri anda dari kebiasaan buruk.</p><br>
 
-		<h4>*Contoh</h4>
+		<h4 class="contoh">*Contoh</h4>
 		<p>- Jangan <i>charge</i> ponsel di dekat kamar di malam hari<br>
 		- Nyalakan mode pesawat pada ponsel<br>
 		- Hapus aplikasi yang kurang bermanfaat
@@ -332,23 +209,23 @@
 
 		<h2>4. Menjadikannya Memuaskan</h2><br>
 
-		<h4>1. Berikan Ganjaran Instan</h4>
+		<h4 class="poin">1. Berikan Ganjaran Instan</h4>
 		<p>Untuk menjadikan suatu kebiasaan itu dapat memuaskan, hadiahilah diri dengan sesuatu yang instan. Namun alangkah baiknya jika ganjaran yang diberikan selaras dengan tujuan dan tidak bertentangan.
 		</p><br>
 
-		<h4>*Contoh</h4>
+		<h4 class="contoh">*Contoh</h4>
 		<p>- Beristirahat dan dengar musik setelah membaca buku<br>
 		- Duduk di kursi pijat setelah berolahraga
 		</p><br>
 
-		<h4>2. Gunakan Pemantau Kebiasaan</h4>
+		<h4 class="poin">2. Gunakan Pemantau Kebiasaan</h4>
 		<p>Pemantau kebiasaan merupakan cara sederhana untuk melihat dan mengukur apakah anda melakukan suatu kebiasaan. Contoh yang mendasar adalah seperti menyilangkan tanggal di kalender setelah melakukan kebiasaan. Dengan ini, anda akan merasakan kemajuan yang dapat memotivasi anda untuk tetap melakukan kebiasaan tersebut. <br><br>
 
 		Teruslah pantau kebiasaan anda, jangan putuskan rantainya.
 		</p><br>
 
 
-		<h4>3. Buat Kontrak Kebiasaan</h4>
+		<h3 class="poin">3. Buat Kontrak Kebiasaan</h3 >
 		<p>Kontrak kebiasaan merupakan sebuah kontrak tertulis maupun tidak tertulis yang berisi sesuatu yang anda dapat ketika selesai melakukan kebiasaan dan apa konsekuensi yang didapat apabila tidak melakukan kebiasaan tersebut.
 		</p><br>
 
