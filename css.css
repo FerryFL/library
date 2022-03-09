@@ -103,8 +103,14 @@
 	}
 
 /*img*/
-	img {
+	.buku {
 		width: 25%;
+		display: block;
+		margin: auto;
+	}
+
+	.gambar {
+		width: 65%;
 		display: block;
 		margin: auto;
 	}
@@ -115,4 +121,26 @@
 		.container1 {
 			width: 100%;
 		}
+		h1 {
+			font-size: 30px;
+			text-align: center;
+		}
+
+		p {
+			font-size: 18px;
+		}
+
+		h2 {
+		font-size: 25px;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		.poin {
+			font-size: 22px;
+			font-weight: 600;
+		}
+
 	}
