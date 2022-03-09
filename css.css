@@ -50,6 +50,7 @@
 	}
 
 	a {
+		color: black;
 		font-size: 20px;
 		text-decoration: none;
 	}
@@ -93,7 +94,6 @@
 	button {
 		display: block;
 		margin: auto;
-		text-align: center;
 		padding: 6px;
 		border-radius: 10%;
 	}
