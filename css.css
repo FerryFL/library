@@ -272,9 +272,11 @@
 		font-size: 20px;
 		}	
 
-		
-
 		.containerabout {
+			width: 90%
+		}
+
+		.container {
 			width: 90%
 		}
 
